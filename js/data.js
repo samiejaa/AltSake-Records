@@ -73,7 +73,7 @@ window.ALTSAKE = {
       location: "Denmark",
       activeSince: "2023",
       forFansOf: "odetari, asteria, 6arelyhuman, kets4eki, lumi athena",
-      photo: "",                            // e.g. "images/artists/samiejaa.jpg"
+      photo: "images/artists/samiejaa-altsake.jpg",
       tagline: "Energetic electronic pop built to move to.",
       short: "The loud, bright side of AltSake's founder — hyperpop, EDM and dance music with a lot of heart.",
       bio: [
@@ -83,9 +83,9 @@ window.ALTSAKE = {
       ],
       pressBio: "Samiejaa is the high-energy electronic project of Danish artist and producer Mikkel Hammershøy, blending hyperpop, EDM and dance. Debut album \"Diary of Desire\" (2026) is out now on all platforms.",
       releases: [
-        { title: "COME ON! (with wikuro feat. Xaduma)", type: "Single", year: "2026", url: "" },
-        { title: "Diary of Desire",                    type: "Album",  year: "2026", url: "" },
-        { title: "secret little dancer",               type: "Single", year: "",     url: "" }
+        { title: "COME ON! (with wikuro feat. Xaduma)", type: "Single", year: "2026", url: "https://share.amuse.io/track/samiejaa-come-on" },
+        { title: "Diary of Desire",                    type: "Album",  year: "2026", url: "https://share.amuse.io/album/samiejaa-diary-of-desire" },
+        { title: "Secret Little Dancer",               type: "Single", year: "2026",  url: "https://share.amuse.io/track/samiejaa-secret-little-dancer" }
       ],
       links: [
         { label: "Spotify",  url: "" },   // TODO: paste Spotify artist link
