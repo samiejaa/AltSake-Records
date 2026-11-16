@@ -48,10 +48,10 @@ window.ALTSAKE = {
     {
       label: "New single",
       title: "COME ON!",
-      artistLine: "Samiejaa & wikuro feat. Xaduma",
+      artistLine: "Samiejaa & wikuro prod. Xaduma",
       date: "16 November 2026",
       text: "A high-energy collab between Samiejaa and wikuro, produced by Xaduma. Out now.",
-      image: "",              // e.g. "images/news/come-on.jpg"
+      image: "images/news/come-on-cover.webp",
       link: "artist.html?a=samiejaa",
       linkLabel: "Go to Samiejaa"
     }
@@ -90,11 +90,11 @@ window.ALTSAKE = {
       links: [
         { label: "Spotify",  url: "" },   // TODO: paste Spotify artist link
         { label: "TikTok",   url: "https://www.tiktok.com/@samiejaa.makesmusic" },
-        { label: "Instagram",url: "" },   // TODO
+        { label: "Instagram",url: "https://instagram.com/samiejaa.makesmusic" },
         { label: "Website",  url: "https://samiejaa.com" },
         { label: "Merch",    url: "https://store.samiejaa.com" }
       ],
-      spotifyArtistId: "",                  // the code after /artist/ in the Spotify link → shows a player
+      spotifyArtistId: "6hWIpKW9JVwSA25vYeVZKI", 
       pressPhotos: [],                      // e.g. ["press/samiejaa-1.jpg", "press/samiejaa-2.jpg"]
       pressKitPdf: ""                       // e.g. "press/samiejaa-epk.pdf"
     },
@@ -119,16 +119,16 @@ window.ALTSAKE = {
       pressBio: "Mikkel Hammershøy is a Danish indie, rock and pop artist and the founder of AltSake Records, where he also works as manager and in-house producer and engineer. Also known as Samiejaa.",
       releases: [
         { title: "Yearn For You",      type: "Single", year: "2025", url: "" },
-        { title: "Dead 2 u",           type: "Single", year: "",     url: "" },
-        { title: "Love Beyond Death",  type: "Single", year: "",     url: "" },
-        { title: "Goodbye",            type: "Single", year: "",     url: "" }
+        { title: "Dead 2 u",           type: "Single", year: "2026",     url: "" },
+        { title: "Love Beyond Death",  type: "Single", year: "2026",     url: "" },
+        { title: "Goodbye",            type: "Single", year: "2025",     url: "" }
       ],
       links: [
-        { label: "Spotify",   url: "" },  // TODO
-        { label: "TikTok",    url: "" },  // TODO
-        { label: "Instagram", url: "" }   // TODO
+        { label: "Spotify",   url: "5lpaLJnkk8DqMLwwZBjmYM" },
+        { label: "TikTok",    url: "https://tiktok.com/@samiejaa.makesmusic" },
+        { label: "Instagram", url: "https://instagram.com/samiejaa.makesmusic" }   
       ],
-      spotifyArtistId: "",
+      spotifyArtistId: "5lpaLJnkk8DqMLwwZBjmYM",
       pressPhotos: [],
       pressKitPdf: ""
     }
