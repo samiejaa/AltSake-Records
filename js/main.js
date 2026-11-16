@@ -376,10 +376,31 @@
     });
   }
 
+  /* ---------- team (about page) ---------- */
+  function renderTeam() {
+    var el = $("#team-grid");
+    if (!el) return;
+    el.innerHTML = (D.team || []).map(function (t) {
+      var a = { name: t.name, photo: t.photo };
+      var inner =
+        '<div class="team-photo">' + photo(a, "") + "</div>" +
+        '<div class="team-info">' +
+          '<h3>' + esc(t.name) + "</h3>" +
+          '<p class="roles mono">' + esc((t.roles || []).join(" · ")) + "</p>" +
+          (t.text ? '<p class="muted">' + esc(t.text) + "</p>" : "") +
+          (t.artistId ? '<span class="link-arrow">Artist page →</span>' : "") +
+        "</div>";
+      return t.artistId ?
+        '<a class="win team-card" href="artist.html?a=' + encodeURIComponent(t.artistId) + '">' + inner + "</a>" :
+        '<div class="win team-card">' + inner + "</div>";
+    }).join("");
+  }
+
   /* ---------- boot ---------- */
   renderHeader();
   renderFooter();
   if (page === "home") renderHome();
+  if (page === "about") renderTeam();
   if (page === "roster") renderRosterGrid("#roster-grid", D.artists || []);
   if (page === "artist") renderArtist();
   if (page === "shop") renderShop();

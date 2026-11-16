@@ -131,7 +131,49 @@ window.ALTSAKE = {
       spotifyArtistId: "5lpaLJnkk8DqMLwwZBjmYM",
       pressPhotos: [],
       pressKitPdf: ""
+    },
+
+     {
+      id: "myron-blueboy",
+      name: "Myron Blueboy",
+      featured: true,
+      roles: ["Artist", "Digital artist"],
+      genres: ["Indie"],
+      location: "",
+      activeSince: "",
+      forFansOf: "",
+      photo: "",                            // e.g. "images/artists/myron-blueboy.jpg"
+      tagline: "Indie songs and visuals from the same set of hands.",
+      short: "Indie musician and digital artist, making both the songs and the art that goes with them.",
+      bio: [
+        "Myron Blueboy is an indie musician and digital artist in the AltSake family. He writes and releases his own music, mainly in the indie genre, and also creates visual work for the label.",
+        "Earlier releases may appear under his previous artist name, myroblue."
+      ],
+      pressBio: "Myron Blueboy is an indie musician and digital artist signed to AltSake Records. Formerly known as myroblue.",
+      releases: [],
+      links: [
+        { label: "Spotify",   url: "" },  // TODO
+        { label: "TikTok",    url: "" },  // TODO
+        { label: "Instagram", url: "" }   // TODO
+      ],
+      spotifyArtistId: "",
+      pressPhotos: [],
+      pressKitPdf: ""
     }
+
+  ],
+/* ---------------- TEAM (shown on the About page) ----------------
+     "artistId" links the person to their roster page (leave "" if they're not an artist).
+  ------------------------------------------------------------------ */
+  team: [
+    { name: "Mikkel Hammershøy", roles: ["Founder", "Manager", "In-house producer", "Engineer"], photo: "", artistId: "mikkel-hammershoy",
+      text: "Artist under the names Mikkel Hammershøy and Samiejaa. Started AltSake to give artists the support he wished he'd had." },
+    { name: "Karolina Bernekier", roles: ["Co-founder", "Manager"], photo: "", artistId: "",
+      text: "Co-founder of AltSake Records, helping run the label and supporting the artists day to day." },
+    { name: "Myron Blueboy", roles: ["Digital artist", "Musician"], photo: "", artistId: "myron-blueboy",
+      text: "Indie musician and digital artist, making music and visuals for the AltSake family." },
+    { name: "Sunuri", roles: ["Digital artist", "Social media"], photo: "", artistId: "",
+      text: "Digital artist and the person behind AltSake's social media." }
   ],
 
   /* ---------------- SHOP ----------------
