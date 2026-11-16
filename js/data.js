@@ -29,7 +29,7 @@ window.ALTSAKE = {
     pressEmail: "press@altsakerecords.com",     // TODO
 
     // Demo form: paste your free access key from https://web3forms.com
-    web3formsKey: "YOUR_WEB3FORMS_ACCESS_KEY",
+    web3formsKey: "38e7d735-6a5d-432a-acf6-83466ae3de85",
 
     // Label socials (leave "" to hide)
     socials: [
