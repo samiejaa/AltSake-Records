@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08090b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Michroma&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<title>Send a demo — AltSake Records</title>
+<meta name="description" content="Submit your music to AltSake Records. Tell us who you are, send a link to your music and your socials. No AI music.">
+</head>
+<body data-page="demos">
+<header id="site-header"></header>
+
+<main>
+  <section class="hero page-hero">
+    <div class="container">
+      <p class="kicker">// Demo submissions: open</p>
+      <h1 class="hero-title display"><span class="chrome">Send us</span><span class="outline">your music</span></h1>
+      <p class="lead">We listen to every submission ourselves. Give us a proper introduction so we can get to know you, not just your songs.</p>
+    </div>
+  </section>
+
+  <section class="section container" style="padding-top:clamp(20px,4vw,50px)">
+    <div class="demo-layout">
+
+      <aside class="demo-side">
+        <div class="win">
+          <div class="win-bar"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="win-title">read_me_first.txt</span></div>
+          <div style="padding:24px">
+            <h2 class="h3" style="margin-bottom:4px">What to include</h2>
+            <ol class="checklist">
+              <li><div><b>A short introduction</b><span>Who you are, where you're from, what you make and what you're aiming for.</span></div></li>
+              <li><div><b>A link to your music</b><span>Released or unreleased. Spotify, SoundCloud, YouTube, or a private Google Drive or Dropbox link all work. Please make sure the link works.</span></div></li>
+              <li><div><b>Your socials</b><span>If you have any, add them. No following? No problem. It's not a requirement.</span></div></li>
+            </ol>
+            <p class="muted" style="margin:18px 0 0;font-size:15px">We use this to judge whether we're the right fit for each other. If it's a match, we'll reach out by email.</p>
+          </div>
+        </div>
+
+        <div class="win ai-policy" role="note" aria-label="AI policy">
+          <div class="win-bar"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="win-title">warning.sys</span></div>
+          <div class="ai-policy-inner">
+            <h2>⚠ Zero-tolerance AI policy</h2>
+            <p>AltSake is against using AI to create music. <strong>Any submission containing AI-generated music</strong>, including AI vocals, instrumentals, lyrics or full songs, <strong>will be blocked</strong>.</p>
+            <p>Anyone who submits AI music will <strong>never get a chance with us again</strong>. We see it as unserious, and we only work with real people who put in real work.</p>
+          </div>
+        </div>
+
+        <div class="win">
+          <div class="win-bar"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="win-title">prefer_email.txt</span></div>
+          <div style="padding:24px">
+            <p style="margin:0 0 6px">Prefer email? Send the same three things to:</p>
+            <a class="link-arrow" href="#" data-demo-email>demos@</a>
+          </div>
+        </div>
+      </aside>
+
+      <div class="win">
+        <div class="win-bar"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="win-title">submit_demo.exe</span></div>
+        <div class="form-wrap">
+          <form id="demo-form" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="artist_name">Artist / project name <span class="req">*</span></label>
+                <input id="artist_name" name="artist_name" type="text" required autocomplete="nickname">
+              </div>
+              <div class="field">
+                <label for="real_name">Your name</label>
+                <input id="real_name" name="name" type="text" autocomplete="name">
+              </div>
+              <div class="field">
+                <label for="email">Email <span class="req">*</span></label>
+                <input id="email" name="email" type="email" required autocomplete="email" placeholder="so we can reply">
+              </div>
+              <div class="field">
+                <label for="location">Based in</label>
+                <input id="location" name="location" type="text" placeholder="City, country">
+              </div>
+              <div class="field full">
+                <label for="genre">Genre / sound</label>
+                <input id="genre" name="genre" type="text" placeholder="e.g. hyperpop, indie rock, drill…">
+              </div>
+
+              <div class="field full">
+                <label for="intro"><span>Short introduction <span class="req">*</span></span><span id="intro-count" class="muted" style="letter-spacing:0">0 / 1500</span></label>
+                <p class="hint">Tell us who you are, how long you've been making music, what you're working towards and why AltSake.</p>
+                <textarea id="intro" name="introduction" required minlength="40" maxlength="1500" rows="6"></textarea>
+              </div>
+
+              <div class="field full">
+                <label for="music_links">Link(s) to your music <span class="req">*</span></label>
+                <p class="hint">Released or unreleased. One link per line. Private links are fine; just make sure we have access.</p>
+                <textarea id="music_links" name="music_links" required rows="3" placeholder="https://"></textarea>
+              </div>
+              <div class="field">
+                <label for="release_status">Is the music released?</label>
+                <select id="release_status" name="release_status">
+                  <option value="Not specified">Choose…</option>
+                  <option>Released</option>
+                  <option>Unreleased</option>
+                  <option>A mix of both</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="socials">Socials <span class="muted">(optional)</span></label>
+                <input id="socials" name="socials" type="text" placeholder="@handle or links">
+              </div>
+              <div class="field full">
+                <label for="extra">Anything else? <span class="muted">(optional)</span></label>
+                <textarea id="extra" name="anything_else" rows="3"></textarea>
+              </div>
+
+              <div class="field full">
+                <label class="check warn">
+                  <input type="checkbox" name="no_ai_confirmation" value="Confirmed: no AI used" required>
+                  <span><b>I confirm that no AI was used to create this music</b>: no AI vocals, instrumentals, lyrics or songs. I understand AI submissions are blocked permanently. <span class="req">*</span></span>
+                </label>
+              </div>
+              <div class="field full">
+                <label class="check">
+                  <input type="checkbox" name="rights_confirmation" value="Confirmed: owns/controls rights" required>
+                  <span>I made this music (or have permission from everyone who did) and I'm allowed to send it. <span class="req">*</span></span>
+                </label>
+              </div>
+
+              <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+              <div class="field full form-actions">
+                <button class="btn btn-primary" type="submit">Send demo</button>
+                <span class="muted mono small">* required</span>
+              </div>
+            </div>
+          </form>
+          <div id="form-status" class="form-status" role="status" aria-live="polite" hidden></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
