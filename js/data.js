@@ -7,8 +7,6 @@
    Rules of thumb:
    - Text goes inside "quotes". Keep the commas between items.
    - Leave a value as "" (empty) to hide it on the site.
-   - Images: put files in /images/... and write the path, e.g.
-     "images/artists/samiejaa.jpg"
    ===================================================================== */
 
 window.ALTSAKE = {
@@ -18,22 +16,18 @@ window.ALTSAKE = {
     labelName: "AltSake Records",
     founded: "2026",
     basedIn: "Denmark",
+    logo: "images/logo.png",
 
-    // Logo: leave "" to show the placeholder. When your logo is ready,
-    // put it in /images/ and write e.g. "images/logo.svg"
-    logo: "",
+  
+    contactEmail: "contact@altsakerecords.com",
+    demoEmail: "demos@altsakerecords.com",
+    pressEmail: "press@altsakerecords.com",
 
-    // Emails (tip: Namecheap gives you free email forwarding to your Gmail)
-    contactEmail: "contact@altsakerecords.com", // TODO: change to your real domain
-    demoEmail: "demos@altsakerecords.com",      // TODO
-    pressEmail: "press@altsakerecords.com",     // TODO
-
-    // Demo form: paste your free access key from https://web3forms.com
     web3formsKey: "38e7d735-6a5d-432a-acf6-83466ae3de85",
 
     // Label socials (leave "" to hide)
     socials: [
-      { label: "Instagram", url: "" },
+      { label: "Instagram", url: "https://instagram.com/altsake.records" },
       { label: "TikTok",    url: "" },
       { label: "YouTube",   url: "" },
       { label: "Spotify",   url: "" }
@@ -96,7 +90,7 @@ window.ALTSAKE = {
       ],
       spotifyArtistId: "6hWIpKW9JVwSA25vYeVZKI", 
       pressPhotos: [],                      // e.g. ["press/samiejaa-1.jpg", "press/samiejaa-2.jpg"]
-      pressKitPdf: "press/samiejaa-press-kit"
+      pressKitPdf: "press/samiejaa-press-kit"                       // e.g. "press/samiejaa-epk.pdf"
     },
 
     {
