@@ -88,7 +88,7 @@ window.ALTSAKE = {
         { title: "Secret Little Dancer",               type: "Single", year: "2026",  url: "https://share.amuse.io/track/samiejaa-secret-little-dancer" }
       ],
       links: [
-        { label: "Spotify",  url: "" },   // TODO: paste Spotify artist link
+        { label: "Spotify",  url: "https://open.spotify.com/artist/6hWIpKW9JVwSA25vYeVZKI" }, 
         { label: "TikTok",   url: "https://www.tiktok.com/@samiejaa.makesmusic" },
         { label: "Instagram",url: "https://instagram.com/samiejaa.makesmusic" },
         { label: "Website",  url: "https://samiejaa.com" },
@@ -107,8 +107,8 @@ window.ALTSAKE = {
       genres: ["Indie", "Rock", "Pop"],
       location: "Denmark",
       activeSince: "2025",
-      forFansOf: "",
-      photo: "",
+      forFansOf: "tame impala, lafey, arctic monkeys, montell fish",
+      photo: "images/artists/mikkel-hammershoy.jpg",
       tagline: "Darker, more personal songs — and the person who keeps AltSake running.",
       short: "Indie, rock and pop with deeper lyrics. Also AltSake's founder, manager and in-house producer and engineer.",
       bio: [
@@ -118,13 +118,13 @@ window.ALTSAKE = {
       ],
       pressBio: "Mikkel Hammershøy is a Danish indie, rock and pop artist and the founder of AltSake Records, where he also works as manager and in-house producer and engineer. Also known as Samiejaa.",
       releases: [
-        { title: "Yearn For You",      type: "Single", year: "2025", url: "" },
-        { title: "Dead 2 u",           type: "Single", year: "2026",     url: "" },
-        { title: "Love Beyond Death",  type: "Single", year: "2026",     url: "" },
-        { title: "Goodbye",            type: "Single", year: "2025",     url: "" }
+        { title: "Yearn For You",      type: "Single", year: "2025", url: "https://open.spotify.com/track/5gjPQyqFWUI2L0W7cd9yPr" },
+        { title: "dead2u",             type: "Single", year: "2026", url: "https://open.spotify.com/track/5gjPQyqFWUI2L0W7cd9yPr" },
+        { title: "Love Beyond Death",  type: "Single", year: "2026", url: "https://open.spotify.com/track/5V8AhPE82Xv8BOYl8aa5fo" },
+        { title: "Goodbye",            type: "Single", year: "2025", url: "" }
       ],
       links: [
-        { label: "Spotify",   url: "5lpaLJnkk8DqMLwwZBjmYM" },
+        { label: "Spotify",   url: "https://open.spotify.com/artist/5lpaLJnkk8DqMLwwZBjmYM" },
         { label: "TikTok",    url: "https://tiktok.com/@samiejaa.makesmusic" },
         { label: "Instagram", url: "https://instagram.com/samiejaa.makesmusic" }   
       ],
@@ -138,25 +138,29 @@ window.ALTSAKE = {
       name: "Myron Blueboy",
       featured: true,
       roles: ["Artist", "Digital artist"],
-      genres: ["Indie"],
-      location: "",
-      activeSince: "",
-      forFansOf: "",
+      genres: ["Indie, rock, pop"],
+      location: "Canada",
+      activeSince: "2025",
+      forFansOf: "ari abdul, tame impala, arctic monkeys, montell fish",
       photo: "",                            // e.g. "images/artists/myron-blueboy.jpg"
       tagline: "Indie songs and visuals from the same set of hands.",
       short: "Indie musician and digital artist, making both the songs and the art that goes with them.",
       bio: [
         "Myron Blueboy is an indie musician and digital artist in the AltSake family. He writes and releases his own music, mainly in the indie genre, and also creates visual work for the label.",
-        "Earlier releases may appear under his previous artist name, myroblue."
+        "He reached out to Samiejaa in 2025 aabout a collab back when his name was myroblue, and they have done collabs ever since."
       ],
       pressBio: "Myron Blueboy is an indie musician and digital artist signed to AltSake Records. Formerly known as myroblue.",
-      releases: [],
-      links: [
-        { label: "Spotify",   url: "" },  // TODO
-        { label: "TikTok",    url: "" },  // TODO
-        { label: "Instagram", url: "" }   // TODO
+      releases: [
+        { title: "dead2u", type: "Single", year: "2026", url: "https://open.spotify.com/track/5gjPQyqFWUI2L0W7cd9yPr" },
+        { title: "watch me decay", type: "Single", year: "2026", url: "https://open.spotify.com/track/5kwJoKiYLWJjsb0Awulkmc" },
+        { title: "HEART EYES", type: "Single", year: "2026", url: "https://open.spotify.com/track/3FqVsgvB4rs8LlTeCNSvg7" },
       ],
-      spotifyArtistId: "",
+      links: [
+        { label: "Spotify",   url: "https://open.spotify.com/artist/15IrxSEKgXqolEY1UZepIc" },
+        { label: "TikTok",    url: "https://www.tiktok.com/@myronblueboy" },
+        { label: "Instagram", url: "https://www.instagram.com/myronblueboy/" } 
+      ],
+      spotifyArtistId: "15IrxSEKgXqolEY1UZepIc",
       pressPhotos: [],
       pressKitPdf: ""
     }
@@ -166,7 +170,7 @@ window.ALTSAKE = {
      "artistId" links the person to their roster page (leave "" if they're not an artist).
   ------------------------------------------------------------------ */
   team: [
-    { name: "Mikkel Hammershøy", roles: ["Founder", "Manager", "In-house producer", "Engineer"], photo: "", artistId: "mikkel-hammershoy",
+    { name: "Mikkel Hammershøy", roles: ["Founder", "Manager", "In-house producer", "Engineer"], photo: "images/artists/mikkel-hammershoy.jpg", artistId: "mikkel-hammershoy",
       text: "Artist under the names Mikkel Hammershøy and Samiejaa. Started AltSake to give artists the support he wished he'd had." },
     { name: "Kamri", roles: ["Co-founder", "Manager"], photo: "", artistId: "",
       text: "Co-founder of AltSake Records, helping run the label and supporting the artists day to day." },
@@ -185,6 +189,5 @@ window.ALTSAKE = {
     { name: "Diary of Desire — Hoodie",     artist: "Samiejaa", category: "Merch", price: "", image: "", url: "https://store.samiejaa.com" },
     { name: "Diary of Desire — T-shirt",    artist: "Samiejaa", category: "Merch", price: "", image: "", url: "https://store.samiejaa.com" },
     { name: "Diary of Desire — Beanie",     artist: "Samiejaa", category: "Merch", price: "", image: "", url: "https://store.samiejaa.com" },
-    { name: "AltSake Records label merch",  artist: "AltSake Records", category: "Merch", price: "", image: "", url: "", comingSoon: true }
   ]
 };
