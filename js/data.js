@@ -96,7 +96,7 @@ window.ALTSAKE = {
       ],
       spotifyArtistId: "6hWIpKW9JVwSA25vYeVZKI", 
       pressPhotos: [],                      // e.g. ["press/samiejaa-1.jpg", "press/samiejaa-2.jpg"]
-      pressKitPdf: ""                       // e.g. "press/samiejaa-epk.pdf"
+      pressKitPdf: "press/samiejaa-press-kit"
     },
 
     {
@@ -107,7 +107,7 @@ window.ALTSAKE = {
       genres: ["Indie", "Rock", "Pop"],
       location: "Denmark",
       activeSince: "2025",
-      forFansOf: "tame impala, lafey, arctic monkeys, montell fish",
+      forFansOf: "tame impala, laufey, arctic monkeys, montell fish",
       photo: "images/artists/mikkel-hammershoy.jpg",
       tagline: "Darker, more personal songs — and the person who keeps AltSake running.",
       short: "Indie, rock and pop with deeper lyrics. Also AltSake's founder, manager and in-house producer and engineer.",
@@ -119,7 +119,7 @@ window.ALTSAKE = {
       pressBio: "Mikkel Hammershøy is a Danish indie, rock and pop artist and the founder of AltSake Records, where he also works as manager and in-house producer and engineer. Also known as Samiejaa.",
       releases: [
         { title: "Yearn For You",      type: "Single", year: "2025", url: "https://open.spotify.com/track/5gjPQyqFWUI2L0W7cd9yPr" },
-        { title: "dead2u",             type: "Single", year: "2026", url: "https://open.spotify.com/track/5gjPQyqFWUI2L0W7cd9yPr" },
+        { title: "dead2u",             type: "Single", year: "2026", url: "https://open.spotify.com/track/2pb5AOvPd3xITt4gDSQNP0" },
         { title: "Love Beyond Death",  type: "Single", year: "2026", url: "https://open.spotify.com/track/5V8AhPE82Xv8BOYl8aa5fo" },
         { title: "Goodbye",            type: "Single", year: "2025", url: "" }
       ],
@@ -130,7 +130,7 @@ window.ALTSAKE = {
       ],
       spotifyArtistId: "5lpaLJnkk8DqMLwwZBjmYM",
       pressPhotos: [],
-      pressKitPdf: ""
+      pressKitPdf: "press/mikkel-hammershoy-press.kit.pdf"
     },
 
      {
@@ -138,7 +138,7 @@ window.ALTSAKE = {
       name: "Myron Blueboy",
       featured: true,
       roles: ["Artist", "Digital artist"],
-      genres: ["Indie, rock, pop"],
+      genres: ["Indie", "rock", "pop"],
       location: "Canada",
       activeSince: "2025",
       forFansOf: "ari abdul, tame impala, arctic monkeys, montell fish",
@@ -147,11 +147,11 @@ window.ALTSAKE = {
       short: "Indie musician and digital artist, making both the songs and the art that goes with them.",
       bio: [
         "Myron Blueboy is an indie musician and digital artist in the AltSake family. He writes and releases his own music, mainly in the indie genre, and also creates visual work for the label.",
-        "He reached out to Samiejaa in 2025 aabout a collab back when his name was myroblue, and they have done collabs ever since."
+        "He reached out to Samiejaa in 2025 about a collab back when his name was myroblue, and they have done collabs ever since."
       ],
       pressBio: "Myron Blueboy is an indie musician and digital artist signed to AltSake Records. Formerly known as myroblue.",
       releases: [
-        { title: "dead2u", type: "Single", year: "2026", url: "https://open.spotify.com/track/5gjPQyqFWUI2L0W7cd9yPr" },
+        { title: "dead2u", type: "Single", year: "2026", url: "https://open.spotify.com/track/2pb5AOvPd3xITt4gDSQNP0" },
         { title: "watch me decay", type: "Single", year: "2026", url: "https://open.spotify.com/track/5kwJoKiYLWJjsb0Awulkmc" },
         { title: "HEART EYES", type: "Single", year: "2026", url: "https://open.spotify.com/track/3FqVsgvB4rs8LlTeCNSvg7" },
       ],
