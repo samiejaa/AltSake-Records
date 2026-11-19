@@ -90,13 +90,13 @@ window.ALTSAKE = {
       ],
       spotifyArtistId: "6hWIpKW9JVwSA25vYeVZKI", 
       pressPhotos: [],                      // e.g. ["press/samiejaa-1.jpg", "press/samiejaa-2.jpg"]
-      pressKitPdf: "press/samiejaa-press-kit"                       // e.g. "press/samiejaa-epk.pdf"
+      pressKitPdf: "press/samiejaa-press-kit.pdf"
     },
 
     {
       id: "mikkel-hammershoy",
       name: "Mikkel Hammershøy",
-      featured: true,
+      featured: false,
       roles: ["Artist", "Founder", "Manager", "In-house producer", "Engineer"],
       genres: ["Indie", "Rock", "Pop"],
       location: "Denmark",
@@ -124,7 +124,7 @@ window.ALTSAKE = {
       ],
       spotifyArtistId: "5lpaLJnkk8DqMLwwZBjmYM",
       pressPhotos: [],
-      pressKitPdf: "press/mikkel-hammershoy-press.kit.pdf"
+      pressKitPdf: "press/mikkel-hammershoy-press-kit.pdf"
     },
 
      {
@@ -135,8 +135,8 @@ window.ALTSAKE = {
       genres: ["Indie", "rock", "pop"],
       location: "Canada",
       activeSince: "2025",
-      forFansOf: "ari abdul, tame impala, arctic monkeys, montell fish",
-      photo: "",                            // e.g. "images/artists/myron-blueboy.jpg"
+      forFansOf: "Ari Abdul, Tame Impala, Arctic Monkeys, Montell Fish",
+      photo: "images/artists/myron-blueboy.jpg",
       tagline: "Indie songs and visuals from the same set of hands.",
       short: "Indie musician and digital artist, making both the songs and the art that goes with them.",
       bio: [
@@ -159,6 +159,35 @@ window.ALTSAKE = {
       pressKitPdf: ""
     }
 
+    {
+      id: "poem",
+      name: "Poem",
+      featured: true,
+      roles: ["Artist", "Digital artist"],
+      genres: ["EDM", "Hyperpop", "Synthpop", "Dark pop"],
+      location: "Unknown",
+      activeSince: "2026",
+      forFansOf: "Odetari, Hatsune Miku, Chris Grey",
+      photo: "images/artists/Poem.jpg",
+      tagline: "A young, strong and talented voice.",
+      short: "One of the strongest voices on our roster, with striking visual art to match.",
+      bio: [
+        "Poem is a singer and digital artist blending EDM, hyperpop, synthpop and dark pop. She started out posting covers on TikTok and passed a thousand followers within just a few days.",
+        "Since then her audience has kept growing fast, with several videos passing 100,000 views. Alongside the covers, she has now started writing and releasing original music, and she creates her own visual art to go with it."
+      ],
+      pressBio: "Poem is a singer and digital artist making EDM, hyperpop, synthpop and dark pop. After building a fast-growing TikTok following with covers that have passed 100,000 views, she is now releasing original music with AltSake Records.",
+      releases: [
+        { title: "Bellydancer", type: "Single", year: "2026", url: "" }   // TODO: link when it's out
+      ],
+      links: [
+        { label: "Spotify",   url: "" },    // TODO
+        { label: "TikTok",    url: "https://www.tiktok.com/@poemianie" },
+        { label: "Instagram", url: "" }     // TODO
+      ],
+      spotifyArtistId: "",
+      pressPhotos: [],
+      pressKitPdf: ""
+    }
   ],
 /* ---------------- TEAM (shown on the About page) ----------------
      "artistId" links the person to their roster page (leave "" if they're not an artist).
