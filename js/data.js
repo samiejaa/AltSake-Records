@@ -201,7 +201,7 @@ window.ALTSAKE = {
     { name: "Myron Blueboy", roles: ["Digital artist", "Musician"], photo: "images/artists/myron-blueboy.jpg", artistId: "myron-blueboy",
       text: "Indie musician and digital artist, making music and visuals for the AltSake family." },
     { name: "Sunuri", roles: ["Digital artist", "Social media"], photo: "", artistId: "",
-      text: "Digital artist and the person behind AltSake's social media." }
+      text: "Digital artist and the person behind AltSake's social media." },
     { name: "Poem", roles: ["Musician", "Digital artist"], photo: "", artistId: "",
       text: "Our strongest voice and most popular member." }
   ],
