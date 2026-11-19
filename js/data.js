@@ -157,7 +157,7 @@ window.ALTSAKE = {
       spotifyArtistId: "15IrxSEKgXqolEY1UZepIc",
       pressPhotos: [],
       pressKitPdf: ""
-    }
+    },
 
     {
       id: "poem",
@@ -189,6 +189,7 @@ window.ALTSAKE = {
       pressKitPdf: ""
     }
   ],
+
 /* ---------------- TEAM (shown on the About page) ----------------
      "artistId" links the person to their roster page (leave "" if they're not an artist).
   ------------------------------------------------------------------ */
