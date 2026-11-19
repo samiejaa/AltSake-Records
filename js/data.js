@@ -194,14 +194,16 @@ window.ALTSAKE = {
      "artistId" links the person to their roster page (leave "" if they're not an artist).
   ------------------------------------------------------------------ */
   team: [
-    { name: "Mikkel Hammershøy", roles: ["Founder", "Manager", "In-house producer", "Engineer"], photo: "images/artists/mikkel-hammershoy.jpg", artistId: "mikkel-hammershoy",
+    { name: "Mikkel Hammershøy", roles: ["Founder", "Manager", "In-house producer", "Engineer", "Musician"], photo: "images/artists/mikkel-hammershoy.jpg", artistId: "mikkel-hammershoy",
       text: "Artist under the names Mikkel Hammershøy and Samiejaa. Started AltSake to give artists the support he wished he'd had." },
     { name: "Kamri", roles: ["Co-founder", "Manager"], photo: "", artistId: "",
       text: "Co-founder of AltSake Records, helping run the label and supporting the artists day to day." },
-    { name: "Myron Blueboy", roles: ["Digital artist", "Musician"], photo: "", artistId: "myron-blueboy",
+    { name: "Myron Blueboy", roles: ["Digital artist", "Musician"], photo: "images/artists/myron-blueboy.jpg", artistId: "myron-blueboy",
       text: "Indie musician and digital artist, making music and visuals for the AltSake family." },
     { name: "Sunuri", roles: ["Digital artist", "Social media"], photo: "", artistId: "",
       text: "Digital artist and the person behind AltSake's social media." }
+    { name: "Poem", roles: ["Musician", "Digital artist"], photo: "", artistId: "",
+      text: "Our strongest voice and most popular member." }
   ],
 
   /* ---------------- SHOP ----------------
